@@ -16,7 +16,7 @@ export default class extends React.Component {
           <meta property='og:description' content='Aplikasi penyedia jasa layanan gaya hidup dengan 1 Juta pengguna di 16 kota. Temukan layanan pijat, kebersihan, mekanik, kecantikan, laundry, dan lainnya.' />
         </Head>
         <div className="App">
-        <header className="App-header">
+
 
           <img style={{marginTop:50}} src="https://i.pinimg.com/564x/83/23/66/832366f69c087178414e994299c53a66.jpg" className="App-logo" alt="logo" />
           <h1 style={{marginBottom:0}}>Stuffsdee</h1>
@@ -83,8 +83,6 @@ export default class extends React.Component {
 
   </div>
 */}
-
-        </header>
       </div>
       </div>
     )
