@@ -84,16 +84,16 @@ export default class extends React.Component {
                 <p className="harga">IDR 60,000</p>
               </div>
             </div>
-{/*
+
   <div style={{marginTop:'50px'}}>
   <a href="https://www.instagram.com/stuffsdee/" target="_blank" >
-  <img src={instagram} alt="social-logo" className="social-logo" />
+  <img src="../static/instagram.svg" alt="social-logo" className="social-logo" />
   </a>
   <a href="https://twitter.com/DeeStuffs" target="_blank" >
-  <img src={twitter} alt="social-logo" className="social-logo" />
+  <img src="../static/twitter.svg" alt="social-logo" className="social-logo" />
   </a>
   <a href="https://www.facebook.com/stuffs.dee.1" target="_blank" >
-  <img src={facebook} alt="social-logo" className="social-logo" />
+  <img src="../static/facebook.svg" alt="social-logo" className="social-logo" />
   </a>
 
   <p style={{fontSize:'25px',marginTop:'10px',marginBottom:'20px'}}>
@@ -101,7 +101,7 @@ export default class extends React.Component {
   </p>
 
   </div>
-*/}
+
       </div>
       </div>
     )
