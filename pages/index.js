@@ -20,12 +20,12 @@ export default class extends React.Component {
     return (
       <div>
         <Head>
-          <title>This page has a title 🤔</title>
+          <title>Stuffsdee</title>
           <meta charSet='utf-8' />
           <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-          <meta property='og:title' content='Penyedia Jasa Layanan Gaya Hidup On Demand | GO-LIFE' />
-          <meta property='og:url' content='https://www.go-life.co.id/' />
-          <meta property='og:description' content='Aplikasi penyedia jasa layanan gaya hidup dengan 1 Juta pengguna di 16 kota. Temukan layanan pijat, kebersihan, mekanik, kecantikan, laundry, dan lainnya.' />
+          <meta property='og:title' content='Stuffsdee | Dress Up Your Phone' />
+          <meta property='og:url' content='http://stuffsdee.netlify.com' />
+          <meta property='og:description' content='Dress Up Your Phone With Cute Cases' />
           {/*
             <script
             async
@@ -44,8 +44,10 @@ export default class extends React.Component {
           </p>
             <div className="image-wrapper row">
               <div className="col">
-                <img className="image" src="https://go-life-public-integration.s3.ap-southeast-1.amazonaws.com/9965bae3-a0a0-40c1-a3dc-5a9beb4a2a32/ScreenShot2018-12-20at11.26.58.png" alt=""/>
-                <p className="harga">IDR 60,000</p>
+              <a href="https://www.instagram.com/p/Br0Sr5HAwSR/" target="_blank">
+              <img className="image" src="https://go-life-public-integration.s3.ap-southeast-1.amazonaws.com/9965bae3-a0a0-40c1-a3dc-5a9beb4a2a32/ScreenShot2018-12-20at11.26.58.png" alt=""/>
+              </a>
+              <p className="harga">IDR 60,000</p>
               </div>
               <div className="col">
                 <img className="image" src="https://go-life-public-integration.s3.ap-southeast-1.amazonaws.com/02e7a873-ab9f-4191-95e7-f5a89d37d27d/ScreenShot2018-12-20at11.27.11.png" alt=""/>
