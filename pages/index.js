@@ -5,16 +5,16 @@ import '../assets/styles/grid.css';
 
 
 export default class extends React.Component {
-  // setGoogleTags() {
-  //   return {
-  //     __html: `
-  //       window.dataLayer = window.dataLayer || [];
-  //       function gtag(){dataLayer.push(arguments);}
-  //       gtag('js', new Date());
-  //       gtag('config', 'UA-131362726-1');
-  //     `
-  //   };
-  // }
+  setGoogleTags() {
+    return {
+      __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-131362726-1');
+      `
+    };
+  }
 
   render() {
     return (
@@ -26,13 +26,13 @@ export default class extends React.Component {
           <meta property='og:title' content='Stuffsdee | Dress Up Your Phone' />
           <meta property='og:url' content='http://stuffsdee.netlify.com' />
           <meta property='og:description' content='Dress Up Your Phone With Cute Cases' />
-          {/*
+
             <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=UA-131362726-1"
             />
             <script dangerouslySetInnerHTML={this.setGoogleTags()} />
-          */}
+
         </Head>
         <div className="App">
 
